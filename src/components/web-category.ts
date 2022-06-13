@@ -35,7 +35,7 @@ class WebCategory extends HTMLDivElement {
 
   connectedCallback() {
     if (this.initialCall) {
-      this.classList.add("p-32", "sm:p-48", "lg:flex-1", this.category.class.bg);
+      this.classList.add("p-32", "sm:p-48", "md:p-32", "md:flex-1", "lg:p-48", this.category.class.bg);
       this.useElement.setAttribute("href", this.category.shape);
       this.titleElement.textContent = this.category.title;
       this.descriptionElement.textContent = this.category.description;

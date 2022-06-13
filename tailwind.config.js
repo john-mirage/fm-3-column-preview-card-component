@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     screens: {
       "sm": "375px",
+      "md": "768px",
       "lg": "968px",
     },
     colors: {
@@ -55,6 +56,7 @@ module.exports = {
       "327": "20.4375rem",
       "512": "32rem",
       "528": "33rem",
+      "720": "45rem",
       "920": "57.5rem",
       "1024": "64rem",
     },
