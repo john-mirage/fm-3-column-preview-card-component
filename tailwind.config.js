@@ -8,12 +8,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "xs": "375px",
       "sm": "576px",
-      "md": "768px",
-      "lg": "992px",
-      "xl": "1200px",
-      "2xl": "1400px",
+      "lg": "968px",
     },
     colors: {
       "transparent": "transparent",
@@ -53,13 +49,25 @@ module.exports = {
       "96": "6rem",
       "100": "6.25rem",
       "128": "8rem",
+      "146": "9.125rem",
+      "172": "10.75rem",
       "256": "16rem",
       "512": "32rem",
+      "528": "33rem",
+      "920": "57.5rem",
       "1024": "64rem",
+    },
+    fontSize: {
+      "15": ["0.9375rem", { lineHeight: "1.5625rem" }],
+      "40": ["2.5rem", { lineHeight: "1" }],
     },
     fontWeight: {
       "400": "400",
       "700": "700",
+    },
+    borderRadius: {
+      "8": "0.5rem",
+      "full": "9999px",
     },
     extend: {
       fontFamily: {
