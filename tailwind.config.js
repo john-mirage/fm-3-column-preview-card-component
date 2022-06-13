@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "sm": "576px",
+      "sm": "375px",
       "lg": "968px",
     },
     colors: {
@@ -52,13 +52,18 @@ module.exports = {
       "146": "9.125rem",
       "172": "10.75rem",
       "256": "16rem",
+      "327": "20.4375rem",
       "512": "32rem",
       "528": "33rem",
       "920": "57.5rem",
       "1024": "64rem",
     },
+    minHeight: {
+      "48": "3rem",
+    },
     fontSize: {
       "15": ["0.9375rem", { lineHeight: "1.5625rem" }],
+      "15-button": ["0.9375rem", { lineHeight: "1" }],
       "40": ["2.5rem", { lineHeight: "1" }],
     },
     fontWeight: {
